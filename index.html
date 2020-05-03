@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Log In</title>
+        <link rel="stylesheet" type="text/css" href="./css/login.css"> 
+    </head>
+    <body>
+        <main>
+            <div class="left-desktop">
+                <img src="./images/photo-1523966211575-eb4a01e7dd51.jpeg" alt="Background Image">
+            </div>
+            <div class="right-desktop">
+                <h1>Log In to Continue</h1>
+                <form method="POST" id="login">
+                    <fieldset>
+                        <legend><small>E-mail</small></legend>
+                        <input type="text" name="E-mail" class="formIn" placeholder="Enter your E-mail" required/> 
+                    </fieldset>
+                    <fieldset>
+                        <legend><small>Password</small></legend>
+                        <input type="password" name="password" class="formIn" placeholder="Enter your Password" required/>
+                    </fieldset>
+                    <div class="botCon" style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 270px;">
+                        <div class="left"><input type="checkbox">Remember me</div>
+                        <div class="right"><a href="#">Forgot password?</a></div>
+                    </div>
+                    <input type="submit" name="submit" class="formOut" value="LOGIN"/>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
