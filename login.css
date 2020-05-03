@@ -62,4 +62,8 @@ input[type="submit"]{
         width: 0px;
         height: 0px;
     }
+    .left-desktop{
+        width: 0px;
+        height: 0px;
+    }
 }
